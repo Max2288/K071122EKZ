@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# FastAPI/Starlette debug files
+*.log
+
+# Docker-related files
+*.env
+.env
+docker-compose.override.yml
+
+# PostgreSQL data
+postgres_data/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
